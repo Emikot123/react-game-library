@@ -1,0 +1,53 @@
+.clear{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 8px solid darkred;
+}
+
+.add{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 8px solid darkgreen;
+}
+
+.top button{
+    border-radius: 10px;
+    gap: 50px;
+    padding: 70px;
+    margin-left: 40px;
+    margin-top:30px;
+    cursor: pointer;
+}
+.add:hover{
+    background-color: #006400;
+    border: 8px solid #004300;
+
+}
+.clear:hover{
+    background-color: #c00000;
+    border: 8px solid #570000;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #ffbb7b;
+    height: 100%;
+    border-radius: 10px;
+    border: 8px solid #ff9e4b;
+}
